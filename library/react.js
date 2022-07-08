@@ -15,6 +15,7 @@ const React = {
        * when rendered using the render method.
        */
       name,
+
       /**
        * This is were you can specify what to do with your attributes. Since we
        * want an object that represent every attributes, and since the JSX
@@ -24,6 +25,7 @@ const React = {
        * here to its corresponding DOM element.
        */
       attributes: typeof attributes === "object" && attributes !== null ? attributes : {},
+
       /**
        * Childrens are everything that a JSX tag can accept as content. It
        * might be a string like <span>Arch BTW</span> or some other JSX
